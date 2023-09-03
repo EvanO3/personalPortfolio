@@ -1,147 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Recursive&display=swap');
-
-
-
-*{
-    padding:0px;
-    margin: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Recursive&display=swap");
+html{
+cursor: pointer;
+}
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-
-
-
-body{
-    background-color: black;
- 
-
+h1 {
+  color: white;
 }
 
-
-.greeting{
-  
-    color:white;
-    font-family: 'Recursive', 'Playfair Display', 'Dancing Script', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- height: 100vh;
- gap:10px;
-
+body {
+  background-color: black;
 }
 
-
-
-.fade{
-   
-    opacity: 0;
-    font-family: 'Playfair Display', 'Dancing Script', sans-serif;
-    font-size: 80px;
-    animation: fadeIn 6s;
-    position: absolute;
-    animation-timing-function: ease-in-out;
-    
+#about {
+  margin-top: 100%;
+  padding-bottom: 25%;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+.greeting {
+  color: white;
+  font-family: "Recursive", "Playfair Display", "Dancing Script", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+.fade {
+  opacity: 0;
+  font-family: "Playfair Display", "Dancing Script", sans-serif;
+  font-size: 80px;
+  animation: fadeIn 6s;
+  position: absolute;
+  animation-timing-function: ease-in-out;
+}
 
 .fade:nth-child(1) {
-    animation-name: fadeInこんにちは;
-    animation-delay: 0s;
+  animation-name: fadeInこんにちは;
+  animation-delay: 0s;
 }
 
 .fade:nth-child(2) {
-    animation-name: fadeIn안녕하세요;
-    animation-delay: 3.5s;
+  animation-name: fadeIn안녕하세요;
+  animation-delay: 3.5s;
 }
 
-.fade:nth-child(3){
-    animation-name:fadeInΓειάσας;
-    animation-delay:7s;
+.fade:nth-child(3) {
+  animation-name: fadeInΓειάσας;
+  animation-delay: 7s;
 }
-.fade:nth-child(4){
-    animation-name:fadeInHello;
-    animation-delay:10.5s
-}
-
-.fade:nth-child(5){
-    animation-name:fadeInBonjour;
-    animation-delay:14s
+.fade:nth-child(4) {
+  animation-name: fadeInHello;
+  animation-delay: 10.5s;
 }
 
-.fade:nth-child(6){
-    animation-name:fadeInHola;
-    animation-delay:17.5s
+.fade:nth-child(5) {
+  animation-name: fadeInBonjour;
+  animation-delay: 14s;
 }
 
-
-
+.fade:nth-child(6) {
+  animation-name: fadeInHola;
+  animation-delay: 17.5s;
+}
 
 @keyframes fadeInこんにちは {
-    0%, 20% {
-        opacity: 0;
-    }
-    25%, 75% {
-        opacity: 1;
-    }
-    80%, 100% {
-        opacity: 0;
-    }
+  0%,
+  20% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+  80%,
+  100% {
+    opacity: 0;
+  }
 }
 
-
-@keyframes fadeIn안녕하세요  {
-    0%, 20%, 80%, 100% {
-        opacity: 0;
-    }
-    25%, 75% {
-        opacity: 1;
-    }
+@keyframes fadeIn안녕하세요 {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
 }
 
-@keyframes fadeInΓειάσας{
-    0%, 20%, 80%, 100% {
-        opacity: 0;
-    }
-    25%, 75% {
-        opacity: 1;
-    }
+@keyframes fadeInΓειάσας {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
 }
 
-@keyframes fadeInHello{
-    0%, 20%, 80%, 100% {
-        opacity: 0;
-    }
-    25%, 75% {
-        opacity: 1;
-    }
+@keyframes fadeInHello {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
 }
-@keyframes fadeInBonjour{
-    0%, 20%, 80%, 100% {
-        opacity: 0;
-    }
-    25%, 75% {
-        opacity: 1;
-    }
+@keyframes fadeInBonjour {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
 }
 
-@keyframes fadeInHola{
-    0%, 20%, 80%, 100% {
-        opacity: 0;
-    }
-    25%, 75% {
-        opacity: 1;
-    }
+@keyframes fadeInHola {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
 }
-
 
 /**style the button, change the opacity to 0, add a hover affect and then make it 
 reappear when the words are gone, allow for access to the next page 
 next page will mostlikely be the full portflio*/
-.Click{
-    
+.Click {
   display: flex;
   flex-direction: column;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
- margin-top:-120px;
-  
+  margin-top: -120px;
+  color: white;
+  font-family:"Recursive";
+
 }
