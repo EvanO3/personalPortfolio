@@ -1,5 +1,5 @@
 
 function scrollDown(){
-    const midPage = document.querySelector('#down');
+    const midPage = document.getElementById('about');
     midPage.scrollIntoView({behavior:'smooth'})
 }
