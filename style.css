@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Recursive&display=swap");
+:root{
+    --font-color:white;
+}
+
 html{
 cursor: pointer;
 }
@@ -8,7 +12,7 @@ cursor: pointer;
 }
 
 h1 {
-  color: white;
+  color:var(--font-color)
 }
 
 body {
@@ -22,10 +26,11 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color:var(--font-color)
 }
 .greeting {
-  color: white;
+  color: var(--font-color);
+  text-shadow:#318CE7 2px 0 15px;
   font-family: "Recursive", "Playfair Display", "Dancing Script", sans-serif;
   display: flex;
   justify-content: center;
@@ -38,7 +43,7 @@ a {
   opacity: 0;
   font-family: "Playfair Display", "Dancing Script", sans-serif;
   font-size: 80px;
-  animation: fadeIn 6s;
+  animation:  fadeIn 6s;
   position: absolute;
   animation-timing-function: ease-in-out;
 }
@@ -160,7 +165,69 @@ next page will mostlikely be the full portflio*/
   justify-content: center;
   align-items: center;
   margin-top: -120px;
-  color: white;
+  color:var(--font-color);
   font-family:"Recursive";
 
+}
+
+#about{
+    color: var(--font-color);
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Learn{
+    border-radius: 10px;
+    padding:10px;
+    width: 100px;
+}
+
+
+li{
+    list-style:none;
+    text-shadow:#318CE7 2px 0 15px;
+    font-family: "Recursive", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:var(--font-color);
+    font-size:1rem;
+}
+/**Add hover affect that makes the buttons look a little bigger **/
+a:hover{
+
+}
+
+
+/* Header */
+header{
+    position: relative;
+    padding:0 2rem;
+
+}
+
+.navbar{
+    width:100%;
+    height:60px;
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar,.logo,a{
+    font-size:1rem;
+    font-weight: bold;
+}
+.navbar .links{
+    display: flex;
+    gap:2rem;
+
+}
+
+#logo{
+    padding: top 5px;
+    padding-right:40px;
+    
 }
