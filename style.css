@@ -35,7 +35,7 @@ body{
    
     opacity: 0;
     font-family: 'Playfair Display', 'Dancing Script', sans-serif;
-    font-size: 120px;
+    font-size: 80px;
     animation: fadeIn 6s ;
     position: absolute;
     animation-timing-function: ease-in-out;
@@ -132,4 +132,15 @@ body{
 }
 
 
-
+/**style the button, change the opacity to 0, add a hover affect and then make it 
+reappear when the words are gone, allow for access to the next page 
+next page will mostlikely be the full portflio*/
+.Click{
+    
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+  align-items: center;
+ margin-top:-120px;
+  
+}
