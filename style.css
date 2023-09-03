@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Recursive&display=swap');
+
+
+
 *{
     padding:0px;
     margin: 0px;
 }
 
+
+
+
 body{
     background-color: black;
+ 
 
 }
 
 
 .greeting{
+  
     color:white;
+    font-family: 'Recursive', 'Playfair Display', 'Dancing Script', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,9 +32,10 @@ body{
 
 
 .fade{
+   
     opacity: 0;
-    font-family: Arial;
-    font-size: 150px;
+    font-family: 'Playfair Display', 'Dancing Script', sans-serif;
+    font-size: 120px;
     animation: fadeIn 6s ;
     position: absolute;
     animation-timing-function: ease-in-out;
