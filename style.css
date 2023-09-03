@@ -1,0 +1,124 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+
+}
+
+
+.greeting{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ height: 100vh;
+ gap:10px;
+
+}
+
+
+
+.fade{
+    opacity: 0;
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 6s ;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+}
+
+
+.fade:nth-child(1) {
+    animation-name: fadeInこんにちは;
+    animation-delay: 0s;
+}
+
+.fade:nth-child(2) {
+    animation-name: fadeIn안녕하세요;
+    animation-delay: 3.5s;
+}
+
+.fade:nth-child(3){
+    animation-name:fadeInΓειάσας;
+    animation-delay:7s;
+}
+.fade:nth-child(4){
+    animation-name:fadeInHello;
+    animation-delay:10.5s
+}
+
+.fade:nth-child(5){
+    animation-name:fadeInBonjour;
+    animation-delay:14s
+}
+
+.fade:nth-child(6){
+    animation-name:fadeInHola;
+    animation-delay:17.5s
+}
+
+
+
+
+@keyframes fadeInこんにちは {
+    0%, 20% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+    80%, 100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeIn안녕하세요  {
+    0%, 20%, 80%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInΓειάσας{
+    0%, 20%, 80%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInHello{
+    0%, 20%, 80%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+@keyframes fadeInBonjour{
+    0%, 20%, 80%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInHola{
+    0%, 20%, 80%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+
+
