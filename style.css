@@ -36,9 +36,10 @@ body{
     opacity: 0;
     font-family: 'Playfair Display', 'Dancing Script', sans-serif;
     font-size: 80px;
-    animation: fadeIn 6s ;
+    animation: fadeIn 6s;
     position: absolute;
     animation-timing-function: ease-in-out;
+    
 }
 
 
