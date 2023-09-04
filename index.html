@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <title>Evan's Portfolio</title>
+
   </head>
   <body>
     <header>
@@ -28,16 +32,55 @@
     </div>
     <div class="Click" onclick="scrollDown()">Click to Continue</div>
 
-    <div id="about">
-      <p>Hi, my name is</p>
-      <h1>Evan Oni.</h1>
-      <h2>I enjoy coding fun web apps</h2>
+    <div id="intro">
+      <p>Hello It's Me</p>
+      <h1>Evan Oni</h1>
       <p>
-        My ultimate aspiration is to become a proficient full-stack engineer,
-        crafting exceptional web applications that leave a lasting impact.
+        My ultimate aspiration is to become a proficient full-stack engineer,<br>
+        crafting exceptional web applications that leave a lasting 
+        impact.
       </p>
-      <button class="Learn">Learn More!</button>
+
+      <div class="connections">
+        <a href="https://github.com/EvanO3">
+            <i class="devicon-github-original" ></i>
+        </a>
+<a href="www.linkedin.com/in/evanoni">
+        <i class="devicon-linkedin-plain"></i>
+          
+    </a>
+      </div>
+      <button class="Learn" onclick="scrollToAbout()">Learn More!</button>
+
+      <div class="intro-img">
+        <img class="image" src="/img/coding.jpg" height="350px"  alt="Photo of code">
+      </div>
     </div>
+
+
+    <div class="about">
+        <div class="title-ab">
+            <h1>About Me</h1>
+        </div>
+        
+        <div class="aboutimg"></div>
+        <div class="about-para">
+            <p>My Name is Evan Oni, <br> 
+                As a new developer, I'm passionately dedicated to refining my coding skills through the creation of a personal portfolio.<br>
+                This project isn't just about displaying my work; it's a testament to my commitment to continuous improvement.<br>
+                 Building this portfolio has been an educational adventure, pushing me to explore various web development technologies<br> and learn from hands-on experience.
+                 It's my digital canvas, showcasing not only my technical abilities but also my creativity and personality.
+                  <br>With each line of code written and every design element crafted,
+                 I'm excited to watch my skills grow and evolve as I progress in my development journey.</p>
+        </div>
+   
+         <p>Click to see skills and Projects</p>
+       
+      
+    </div>
+
+
+
 
     <script src="app.js"></script>
   </body>
