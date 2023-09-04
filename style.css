@@ -17,12 +17,18 @@ h1 {
 
 body {
   background-color: black;
+  transition: background-color infinite ease;
 }
 
-#about {
-  margin-top: 100%;
+
+#intro {
+  margin-top: 50%;
   padding-bottom: 25%;
+ 
+ 
 }
+
+
 
 a {
   text-decoration: none;
@@ -41,7 +47,7 @@ a {
 
 .fade {
   opacity: 0;
-  font-family: "Playfair Display", "Dancing Script", sans-serif;
+  font-family: "Recusive", "Playfair Display", "Dancing Script", sans-serif;
   font-size: 80px;
   animation:  fadeIn 6s;
   position: absolute;
@@ -166,15 +172,30 @@ next page will mostlikely be the full portflio*/
   align-items: center;
   margin-top: -120px;
   color:var(--font-color);
-  font-family:"Recursive";
+  font-family:"Recursive", sans-serif;
+  text-shadow:#318CE7 2px 0 15px;
 
 }
 
-#about{
+#intro{
     color: var(--font-color);
     display:flex;
     flex-direction: column;
-    gap:10px;
+    gap: 30px;
+    font-family: "Recusive",sans-serif;
+    padding-left:50px;
+  
+}
+.intro-img{
+    position: relative;
+}
+
+.image{
+    right:0;
+    position:absolute;
+   top: -300px;
+   padding:30px;
+   
 }
 .Learn{
     border-radius: 10px;
@@ -231,3 +252,50 @@ header{
     padding-right:40px;
     
 }
+
+
+
+.about {
+    margin-top: 15%;
+    padding-bottom: 15%;
+    font-family:"Playfair Display", sans-serif ;
+  }
+  .title-ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+  }
+
+  .about-para{
+    font-family:"Playfair Display", sans-serif ;
+    color:var(--font-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+.aboutimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(/img/Oni_Evan_HeHim.JPG);
+}
+  .about>p{
+    color:var(--font-color);
+    font-family:"Playfair Display", sans-serif ;
+  }
+
+
+
+  #intro>p{
+    font-size:26px;
+  }
+  #intro>h1{
+    font-size:60px ;
+    font-family:"Playfair Display", sans-serif ;
+  }
+
+  /*Size of the Icons*/
+  i{
+    font-size: 40px;
+  }
