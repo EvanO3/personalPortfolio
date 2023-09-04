@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Recursive&display=swap");
-:root{
-    --font-color:white;
+:root {
+  --font-color: white;
 }
 
-html{
-cursor: pointer;
+html {
+  cursor: pointer;
 }
 * {
   padding: 0px;
@@ -12,7 +12,7 @@ cursor: pointer;
 }
 
 h1 {
-  color:var(--font-color)
+  color: var(--font-color);
 }
 
 body {
@@ -20,23 +20,18 @@ body {
   transition: background-color infinite ease;
 }
 
-
 #intro {
   margin-top: 50%;
   padding-bottom: 25%;
- 
- 
 }
-
-
 
 a {
   text-decoration: none;
-  color:var(--font-color)
+  color: var(--font-color);
 }
 .greeting {
   color: var(--font-color);
-  text-shadow:#318CE7 2px 0 15px;
+  text-shadow: #318ce7 2px 0 15px;
   font-family: "Recursive", "Playfair Display", "Dancing Script", sans-serif;
   display: flex;
   justify-content: center;
@@ -49,7 +44,7 @@ a {
   opacity: 0;
   font-family: "Recusive", "Playfair Display", "Dancing Script", sans-serif;
   font-size: 80px;
-  animation:  fadeIn 6s;
+  animation: fadeIn 6s;
   position: absolute;
   animation-timing-function: ease-in-out;
 }
@@ -171,192 +166,179 @@ next page will mostlikely be the full portflio*/
   justify-content: center;
   align-items: center;
   margin-top: -120px;
-  color:var(--font-color);
-  font-family:"Recursive", sans-serif;
-  text-shadow:#318CE7 2px 0 15px;
-
+  color: var(--font-color);
+  font-family: "Recursive", sans-serif;
+  text-shadow: #318ce7 2px 0 15px;
 }
 
-#intro{
-    color: var(--font-color);
-    display:flex;
-    flex-direction: column;
-    gap: 30px;
-    font-family: "Recusive",sans-serif;
-    padding-left:50px;
-  
+#intro {
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: "Recusive", sans-serif;
+  padding-left: 50px;
 }
-.intro-img{
-    position: relative;
-}
-
-.image{
-    right:0;
-    position:absolute;
-   top: -300px;
-   padding:30px;
-   
-}
-.Learn{
-    border-radius: 10px;
-    padding:10px;
-    width: 100px;
+.intro-img {
+  position: relative;
 }
 
-
-li{
-    list-style:none;
-    text-shadow:#318CE7 2px 0 15px;
-    font-family: "Recursive", sans-serif;
+.image {
+  right: 0;
+  position: absolute;
+  top: -300px;
+  padding: 30px;
+}
+.Learn {
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
 }
 
-a{
-    text-decoration: none;
-    color:var(--font-color);
-    font-size:1rem;
+li {
+  list-style: none;
+  text-shadow: #318ce7 2px 0 15px;
+  font-family: "Recursive", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 1rem;
 }
 /**Add hover affect that makes the buttons look a little bigger **/
-a:hover{
-
+a:hover {
 }
-
 
 /* Header */
-header{
-    position: relative;
-    padding:0 2rem;
-
+header {
+  position: relative;
+  padding: 0 2rem;
 }
 
-.navbar{
-    width:100%;
-    height:60px;
-    max-width:1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar,.logo,a{
-    font-size:1rem;
-    font-weight: bold;
+.navbar,
+.logo,
+a {
+  font-size: 1rem;
+  font-weight: bold;
 }
-.navbar .links{
-    display: flex;
-    gap:2rem;
-
-}
-
-#logo{
-    padding: top 5px;
-    padding-right:40px;
-    
+.navbar .links {
+  display: flex;
+  gap: 2rem;
 }
 
-
+#logo {
+  padding: top 5px;
+  padding-right: 40px;
+}
 
 .about {
-    margin-top: 15%;
-    padding-bottom: 15%;
-    font-family:"Playfair Display", sans-serif ;
-  }
-  .title-ab{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:15px;
-  }
+  margin-top: 15%;
+  padding-bottom: 15%;
+  font-family: "Playfair Display", sans-serif;
+}
+.title-ab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 
-  .about-para{
-    font-family:"Playfair Display", sans-serif ;
-    color:var(--font-color);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-  }
-.aboutimg{
-    width: 500px;
-    height: 500px;
-    border-radius: 80%;
-    background-image: url(/img/hat.JPG);
-    background-size: cover;
+.about-para {
+  font-family: "Playfair Display", sans-serif;
+  color: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutimg {
+  width: 500px;
+  height: 500px;
+  border-radius: 80%;
+  background-image: url(/img/hat.JPG);
+  background-size: cover;
 }
 .aboutimg::after {
-    content: "";
-    position: absolute;
-    width: 140px;
-    border: 10px solid #000000;
-    border-radius: 50%;
-  }
-
-  .about>p{
-    color:var(--font-color);
-    font-family:"Playfair Display", sans-serif ;
-    padding:10px;
-  }
-
-
-
-  #intro>p{
-    font-size:26px;
-  }
-  #intro>h1{
-    font-size:60px ;
-    font-family:"Playfair Display", sans-serif ;
-  }
-
-  /*Size of the Icons*/
-  i{
-    font-size: 40px;
-  }
-
-.skills-Projects{
-    margin-top: 20%;
-    padding-bottom: 10%;
-    display: flex;
-    justify-content: center;
+  content: "";
+  position: absolute;
+  width: 140px;
+  border: 10px solid #000000;
+  border-radius: 50%;
 }
 
-.project1,.project2{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap:10px;
-color:var(--font-color)
+.about > p {
+  color: var(--font-color);
+  font-family: "Playfair Display", sans-serif;
+  padding: 10px;
 }
 
-.skills{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+#intro > p {
+  font-size: 26px;
+}
+#intro > h1 {
+  font-size: 60px;
+  font-family: "Playfair Display", sans-serif;
 }
 
-
-
-.contact{
-    color:var(--font-color);
-    margin-top: 20%;
-    padding-bottom: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap:10px;
-}
-.bottom-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap:10px;
+/*Size of the Icons*/
+i {
+  font-size: 40px;
 }
 
+.skills-Projects {
+  margin-top: 20%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
 
-.contact-me{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-gap:10px;
+.project1,
+.project2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--font-color);
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact {
+  color: var(--font-color);
+  margin-top: 20%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
