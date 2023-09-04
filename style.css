@@ -264,7 +264,7 @@ a {
   width: 500px;
   height: 500px;
   border-radius: 80%;
-  background-image: url(/img/hat.JPG);
+  background-image: url(img/hat.JPG);
   background-size: cover;
 }
 .aboutimg::after {
