@@ -308,6 +308,7 @@ i {
   flex-direction: column;
   gap: 10px;
   color: var(--font-color);
+  font-family: "Playfair Display", sans-serif;
 }
 
 .skills {
@@ -315,6 +316,7 @@ i {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .contact {
@@ -326,6 +328,7 @@ i {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  font-family: "Playfair Display", sans-serif;
 }
 .bottom-text {
   display: flex;
@@ -333,6 +336,7 @@ i {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .contact-me {
@@ -341,4 +345,5 @@ i {
   align-items: center;
   justify-content: center;
   gap: 10px;
+
 }
