@@ -1,12 +1,12 @@
-#Personal Portfolio
+ # Personal Portfolio
 
- #Introduction
+ ## Introduction
 Welcome to my personal portfolio! This website is created to showcase my work and skills using HTML, CSS, and JavaScript. In this README, I will provide an overview of the project, how to navigate the portfolio, and any additional information you may need.
 
-#About Me
+## About Me
 I am Evan, a Information Technology Student with a passion for Software Development. This portfolio serves as a platform to display my projects, skills, and experiences. Whether you are an employer, a potential collaborator, or simply curious about my work, I hope you find this portfolio informative and engaging.
 
-#Technologies Used
+## Technologies Used
 This portfolio is primarily built using the following technologies:
 
 HTML: The structure and content of the portfolio are created using HTML (Hypertext Markup Language).
@@ -15,7 +15,7 @@ CSS: The styling and layout of the portfolio are designed using CSS (Cascading S
 
 JavaScript: JavaScript is used to enhance interactivity and functionality within the portfolio.
 
-#Project Structure
+## Project Structure
 The portfolio is organized into several sections to provide a comprehensive view of my work and capabilities:
 
 Home: This section offers a brief introduction and welcome message.
@@ -28,7 +28,7 @@ Skills: I showcase my skills and competencies in this section. You can see a lis
 
 Contact: If you wish to get in touch with me, the contact section provides information on how to reach out.
 
-#How to Access the Portfolio
+## How to Access the Portfolio
 To access my portfolio, simply open your web browser and enter the URL where the portfolio is hosted (e.g., www.yourportfolio.com).
 
 Running Locally
